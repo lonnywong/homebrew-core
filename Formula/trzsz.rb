@@ -4,10 +4,9 @@ class Trzsz < Formula
   desc "Simple file transfer tools, similar to lrzsz (rz/sz), and compatible with tmux"
   homepage "https://trzsz.github.io"
   # TODO: Check if we can use unversioned `protobuf` at version bump
-  url "https://files.pythonhosted.org/packages/0c/e5/00c95527d18445cbd3b3b2c5c28a383c94c9ac5291e886796004727b25aa/trzsz-1.1.2.tar.gz"
-  sha256 "dfc9606fb7ae76490c8559ec297b307a788688351ab57108f6a733105b206052"
+  url "https://files.pythonhosted.org/packages/33/14/5b54b20f4027f23c4dab039a3ac2c73df2b79039c449ebbe2903c98c20e4/trzsz-1.1.3.tar.gz"
+  sha256 "4d38e35c128ef86a350bead31cc754c7bbf33ea323d8050ea7ef7d81caf9595e"
   license "MIT"
-  revision 1
 
   bottle do
     sha256 cellar: :any_skip_relocation, arm64_ventura:  "76660eb076b8dfcfdd44b0d75c890df839c6d16f2ceaad329fdc95cec35b1e78"
@@ -43,8 +42,8 @@ class Trzsz < Formula
   end
 
   resource "websockets" do
-    url "https://files.pythonhosted.org/packages/85/dc/549a807a53c13fd4a8dac286f117a7a71260defea9ec0c05d6027f2ae273/websockets-10.4.tar.gz"
-    sha256 "eef610b23933c54d5d921c92578ae5f89813438fded840c2e9809d378dc765d3"
+    url "https://files.pythonhosted.org/packages/d8/3b/2ed38e52eed4cf277f9df5f0463a99199a04d9e29c9e227cfafa57bd3993/websockets-11.0.3.tar.gz"
+    sha256 "88fc51d9a26b10fc331be344f1781224a375b78488fc343620184e95a4b27016"
   end
 
   def install
